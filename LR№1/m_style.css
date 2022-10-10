@@ -1,0 +1,369 @@
+@font-face{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Audiowide'),
+        url(fonts/Audiowide.woff2) format('woff2'),
+        url(fonts/Audiowide.woff) format('woff');
+}
+@font-face{
+    font-family: 'Andika';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Andika'),
+        url(fonts/Andika.woff2) format('woff2'),
+        url(fonts/Andika.woff) format('woff');
+}
+.body{
+    position: relative;
+    width: 100%;
+    height: 725px;
+    background: #AFEEEE;
+    margin: 0;
+    padding: 0;
+    font-family:'Andika';
+    font-style: normal;
+    font-weight: 400;
+    height: fit-content;
+    color: #000000;
+}
+.header{
+    position: absolute;
+    width: 320px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+.hd{
+    position: absolute;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000080;
+}
+.logo{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Audiowide';
+    font-size: 24px;
+    line-height: 31px;
+    text-align: right;
+    color: #000080;
+    background-image:url(imgs/bgd1.svg);
+    background-size: 100% 100%;
+}
+.buttons{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    right: 0px;
+    top: 0px;
+    font-size: 12px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.btn1{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    left: 10px;
+    top: 5px;
+}
+.btn2{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    right: 10px;
+    top: 5px;
+}
+.btn3{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    left: 10px;
+    top: 30px;
+}
+.btn4{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    right: 10px;
+    top: 30px;
+}
+.greeting{
+    position: absolute;
+    width: 320px;
+    height: 180px;
+    left: 0px;
+    top: 60px;   
+}
+.hd1{
+    width: 70px;
+    height: 25px;
+    left: 125px;
+    top: 5px;
+}
+.img1{
+    position: absolute;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    top: 40px;
+    border-radius: 100px;
+}
+.aboutme{
+    position: absolute;
+    width: 190px;
+    height: 100px;
+    right: 10px;
+    top: 40px;
+}
+.myname{
+    position: absolute;
+    width: 190px;
+    height: 15px;
+    left: 0px;
+    top: 0px;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    color: #000080;
+}
+.text{
+    position: absolute;
+    width: 190px;
+    height: 80px;
+    left: 0px;
+    top: 20px;
+    font-size: 10px;
+    line-height: 16px;
+}
+.bgd2{
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 0px;
+    top: 240px;
+}
+.myskills{
+    position: absolute;
+    width: 320px;
+    height: 115px;
+    left: 0px;
+    top: 280px;
+}
+.hd2{
+    width: 100px;
+    height: 25px;
+    left: 110px;
+    top: 5px;
+}
+.list{
+    position: absolute;
+    width: 140px;
+    height: 70px;
+    left: 10px;
+    top: 35px;
+    font-size: 10px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+}
+.skl1{
+    position: absolute;
+    width: 135px;
+    height: 15px;
+    left: 5px;
+    top: 5px;
+}
+.skl2{
+    position: absolute;
+    width: 135px;
+    height: 15px;
+    left: 5px;
+    top: 20px;
+}
+.skl3{
+    position: absolute;
+    width: 135px;
+    height: 15px;
+    left: 5px;
+    top: 35px;
+}
+.skl4{
+    position: absolute;
+    width: 135px;
+    height: 15px;
+    left: 5px;
+    top: 50px;
+}
+.levels{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    right: 10px;
+    top: 35px;
+}
+.lvl1{
+    position: absolute;
+    width: 80px;
+    height: 6px;
+    left: 6px;
+    top: 8px;
+    background: #FFD700;
+}
+.lvl2{
+    position: absolute;
+    width: 120px;
+    height: 6px;
+    left: 6px;
+    top: 24px;
+    background: #FFD700;
+}
+.lvl3{
+    position: absolute;
+    width: 30px;
+    height: 6px;
+    left: 6px;
+    top: 40px;
+    background: #FFD700;
+}
+.lvl4{
+    position: absolute;
+    width: 105px;
+    height: 6px;
+    left: 6px;
+    top: 56px;
+    background: #FFD700;
+}
+.lv1{
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    right: 4px;
+    top: 8px;
+    background: #FFFFFF;
+}
+.lv2{
+    position: absolute;
+    width: 20px;
+    height: 6px;
+    right: 4px;
+    top: 24px;
+    background: #FFFFFF;
+}
+.lv3{
+    position: absolute;
+    width: 110px;
+    height: 6px;
+    right: 4px;
+    top: 40px;
+    background: #FFFFFF;
+}
+.lv4{
+    position: absolute;
+    width: 35px;
+    height: 6px;
+    right: 4px;
+    top: 56px;
+    background: #FFFFFF;
+}
+.bgd3{
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 0px;
+    top: 395px;
+}
+.media{
+    position: absolute;
+    width: 320px;
+    height: 150px;
+    left: 0px;
+    top: 435px;
+}
+.img2{
+    position: absolute;
+    width: 96px;
+    height: 128px;
+    right: 10px;
+    top: 10px;
+}
+.basement{
+    position: absolute;
+    width: 320px;
+    height: 140px;
+    left: 0px;
+    top: 585px;
+}
+.hd3{
+    width: 80px;
+    height: 25px;
+    left: 120px;
+    top: 5px;
+}
+.img3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 10px;
+    top: 30px;
+}
+.contacts{
+    position: absolute;
+    width: 190px;
+    height: 100px;
+    left: 10px;
+    top: 30px;
+    font-size: 10px;
+    line-height: 16px;
+    color: #000000;
+}
+.email{
+    position: absolute;
+    width: 160px;
+    height: 15px;
+    left: 5px;
+    top: 5px;
+}
+.vk{
+    position: absolute;
+    width: 160px;
+    height: 15px;
+    left: 5px;
+    top: 40px;
+}
+.phone{
+    position: absolute;
+    width: 160px;
+    height: 15px;
+    left: 5px;
+    top: 75px;
+}
+.icon1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 170px;
+    top: 5px;
+}
+.icon2{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 170.5px;
+    top: 40px;
+}
+.icon3{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 170px;
+    top: 72px;
+}
